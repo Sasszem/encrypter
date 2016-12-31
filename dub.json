@@ -1,0 +1,24 @@
+{
+	"name": "encrypter",
+	"authors": [
+		"Sas"
+	],
+	"description": "Ported to D from Szalonczuker's JAVA version",
+	"copyright": "Copyright © 2016, BL",
+	"license": "proprietary",
+	
+	"configurations":[
+		{
+			"name":"default",
+			"targetType":"executable",
+			"targetName":"Encrypter"
+		},
+		{
+			"name":"shlib",
+			"targetType":"dynamicLibrary",
+			"targetName":"libEnc"
+		
+		}
+		
+	]
+}
